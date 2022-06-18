@@ -17,8 +17,8 @@ import HelloWorld from "@/components/HelloWorld.vue";
       <HelloWorld msg="Fun with Vue!" />
 
       <nav>
-        <RouterLink to="/vue-tools/">Home</RouterLink>
-        <RouterLink to="/vue-tools/bread-calc">breadCalc</RouterLink>
+        <RouterLink to="/">Home</RouterLink>
+        <RouterLink to="/bread-calc">breadCalc</RouterLink>
       </nav>
     </div>
   </header>
