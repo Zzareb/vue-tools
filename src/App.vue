@@ -8,6 +8,8 @@ import Hr from "@/components/atoms/Hr.vue";
   <header>
     <div class="wrapper">
       <HelloWorld msg="Fun with Vue!" />
+      
+      <Hr />
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
