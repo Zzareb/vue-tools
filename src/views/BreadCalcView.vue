@@ -1,4 +1,5 @@
 <script>
+import Hr from "@/components/atoms/Hr.vue";
 export default {
   name: "BreadCalc",
   data() {
@@ -92,7 +93,7 @@ export default {
     <form action="#">
       <div id="starter">
         <h4>Your starter composition</h4>
-        <hr />
+        <Hr />
         <div class="form-row">
           <label for="starter_weight">
             <span class="input_label">Starter weight</span>
@@ -126,7 +127,7 @@ export default {
       <div id="bread">
         <h4>Your bread composition</h4>
         <h5 v-if="with_starter">(what you will add to your starter)</h5>
-        <hr />
+        <Hr />
         <div class="form-row">
           <label for="flour_bread_weight">
             <span class="input_label">Flour weight</span>
@@ -178,7 +179,7 @@ export default {
       </div>
       <div id="salt">
         <h4>The salt</h4>
-        <hr />
+        <Hr />
         <div class="form-row">
           <label for="salt_weight">
             <span class="input_label">Salt weight</span>
@@ -195,7 +196,7 @@ export default {
 
       <div id="salt">
         <h4>Total weight</h4>
-        <hr />
+        <Hr />
         <div class="form-row">
           <label for="total_weight">
             <span class="input_label">Total weight</span>
@@ -209,7 +210,7 @@ export default {
           </label>
         </div>
         <div class="form-row">
-          <hr />
+          <Hr />
           <label for="total_weight">
             <button id="compute" v-on:click="compute" type="button">
               Compute

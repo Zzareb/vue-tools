@@ -1,21 +1,16 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from "vue-router";
 import HelloWorld from "@/components/HelloWorld.vue";
-import Hr from "@/components/atoms/Hr.vue";
 </script>
 
 <template>
   <header>
     <div class="wrapper">
       <HelloWorld msg="Fun with Vue!" />
-      
-      <Hr />
-
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/bread-calc">breadCalc</RouterLink>
       </nav>
-      <Hr />
     </div>
   </header>
 
