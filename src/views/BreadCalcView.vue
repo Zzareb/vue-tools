@@ -1,6 +1,6 @@
 <script>
 export default {
-  name: 'BreadCalc',
+  name: "BreadCalc",
   data() {
     return {
       flour_bread_weight: 0,
@@ -211,14 +211,15 @@ export default {
         <div class="form-row">
           <hr />
           <label for="total_weight">
-            <button id="compute" v-on:click="compute" type="button">Compute</button>
+            <button id="compute" v-on:click="compute" type="button">
+              Compute
+            </button>
           </label>
         </div>
       </div>
     </form>
   </div>
 </template>
-
 
 <style>
 body {
@@ -231,16 +232,7 @@ body {
     align-items: center;
   }
 }
-hr {
-  border: 0;
-  height: 1px;
-  background-image: linear-gradient(
-    to right,
-    rgba(143, 79, 79, 0),
-    rgba(52, 143, 79, 0.75),
-    rgba(236, 120, 120, 0)
-  );
-}
+
 h4 {
   margin-bottom: 0.5rem;
   font-size: 1.5rem;
@@ -256,6 +248,12 @@ h5 {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+}
+.form-row,
+.form-row label,
+h4,
+h5 {
+  color: #e6dbdb;
 }
 .input_label {
   font-size: 1.2rem;
